@@ -44,6 +44,7 @@
 .inner-container p{
     max-width: 500px;
     font-size: large;
+    color: #141c19;
 }
 .inner-container h1{
     text-align: center;
