@@ -94,8 +94,16 @@
     cursor: pointer;
 }
 
-.MarkContainer h1{
+#markContainer{
+    cursor: pointer;
+}
+
+#markContainer h1{
     margin-top: 20px;
     text-align: center;
     color: #535d59;
+}
+
+.textStyle{
+    color: #04AA6D;
 }

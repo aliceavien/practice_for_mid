@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Input</title>
   </head>
   <body>
@@ -14,19 +14,35 @@
     </ul>
 
     <div class="formContainer">
-        <label for="fname">First Name</label>
-        <input type="text" name="" id="fname" placeholder="Enter First Name ...">
-        <label for="lname">Last Name</label>
-        <input type="text" name="" id="lname" placeholder="Enter Last Name ...">
-        <label for="mark">Your Mark</label>
-        <input type="text" name="" id="markBox" placeholder="Enter Your Marks ...">
-        <button type="submit" class="submitBtn" onclick="processMark()">Submit</button>
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="Enter First Name ..."
+        required
+      />
+      <label for="lname">Last Name</label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="Enter Last Name ..."
+        required
+      />
+      <label for="mark">Your Mark</label>
+      <input
+        type="text"
+        name="mark"
+        id="markBox"
+        placeholder="Enter Your Marks ..."
+        required
+      />
+      <button type="submit" class="submitBtn" onclick="processMark()">Submit</button>
     </div>
 
-    <div class="MarkContainer" id="markContainer">
+    <div class="MarkContainer" id="markContainer" onclick="disappear()"></div>
 
-    </div>
-    
     <script src="/input.js"></script>
   </body>
 </html>
