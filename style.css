@@ -43,7 +43,7 @@
 
 .inner-container p{
     max-width: 500px;
-    font-size: 1px;
+    font-size: larger;
     color: rgb(103, 106, 105);
 }
 .inner-container h1{
